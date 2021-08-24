@@ -6,6 +6,7 @@ html, body {
   font-family: "Lato", Arial, sans-serif;
   margin: 0px;
   padding: 0px;
+  
 }
 body {
   min-height: 100%;
@@ -22,8 +23,23 @@ h5 {
 
 
 .button {
+  background-color: #59ae82;
+  color: white;
+  padding: 10px 24px;
+  margin: 30px auto;
+  font-size: bold;
+  border-radius: 4px;
+  box-shadow: 0;
 
 }
+.button:hover {
+  background-color: white ; /* Green */
+  color: #59ae82;
+}
+
+/* .nested {
+  display: grid;
+} */
 
 
 
@@ -32,11 +48,14 @@ h5 {
 *******************************/
 
 .hero {
+  height: 560px;
+  background-color: #e0f1e9;
+  padding-top: 30px;
 
 }
 
 .page {
-
+  height: 1080px;
 }
 
 .footer {
